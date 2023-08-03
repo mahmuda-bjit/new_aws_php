@@ -2,7 +2,7 @@
 session_start();
 
 // Use the below $con command if you are deploying the website using AWS RDS
-$con = mysqli_connect("employeems.cmukpokoj0mz.us-west-2.rds.amazonaws.com", "admin", "password", "employeeMS", 3306);
+$con = mysqli_connect("employeems.cr6y2a8fgcbj.us-west-2.rds.amazonaws.com", "admin", "password", "employeeMS", 3306);
 
 // Use the below command if you want to run the website on Localhost i.e., XAMPP
 // $con = mysqli_connect("localhost", "root", "", "ecom");
