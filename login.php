@@ -30,7 +30,7 @@ if(isset($_SESSION['USER_LOGIN']) && $_SESSION['USER_LOGIN']=='yes'){
                                 <nav class="bradcaump-inner">
                                   <a class="breadcrumb-item" href="index.php">Home</a>
                                   <span class="brd-separetor"><i class="zmdi zmdi-chevron-right"></i></span>
-                                  <span class="breadcrumb-item active">Login/Register</span>
+                                  <span class="breadcrumb-item active">Login/Register Edit</span>
                                 </nav>
                             </div>
                         </div>
