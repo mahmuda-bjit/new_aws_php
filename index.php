@@ -1,4 +1,7 @@
-<?php require('top.php')?>
+<?php
+include('connection.inc.php');
+require('top.php');
+?>
 
 <style>
  
