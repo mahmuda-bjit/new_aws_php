@@ -9,7 +9,7 @@ COPY . /var/www/html/
 
 # Install any required PHP extensions or dependencies
 # For example, if you need to install the MySQL extension for PHP, you can do:
-# RUN docker-php-ext-install mysqli pdo pdo_mysql
+RUN docker-php-ext-install mysqli pdo pdo_mysql
 
 # Expose the port on which Apache will listen
 EXPOSE 80
